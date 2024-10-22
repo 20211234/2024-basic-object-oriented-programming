@@ -7,7 +7,8 @@ public class Grading {
 		
 		System.out.print("점수를 입력하세요(0~100): ");
 		
-		int score = s.nextInt(); // 
+		int score = s.nextInt();
+		
 		if (score >= 90)
 			grade = 'A';
 		else if (score >= 80)
@@ -20,7 +21,6 @@ public class Grading {
 			grade = 'F';
 		
 		System.out.println("학점은 " + grade + "입니다.");
-		
 		s.close();
 	}
 }

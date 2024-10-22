@@ -11,7 +11,7 @@ public class Hello {
 		int s;
 		char a;
 		
-		s = sum(i, 10);					// 메소드 호출로 반환된 값을 변수 s 안에 저장
+		s = sum(i, 10);					// 메소드 호출로 반환된 값 30을 변수 s 안에 저장
 		a = '?';						// 변수 a 안에 문자 '?' 저장
 		System.out.println(a);			// 변수 a 출력
 		System.out.println("Hello");	// "Hello" 문자열 출력
